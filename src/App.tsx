@@ -1,7 +1,6 @@
 import './App.css'
 import Gallery from './components/Gallery'
 import separator from '/images/separator-2.png'
-import rosa from '/images/rosa.png'
 import background from '/images/body.png'
 import pareja from '/images/pareja.png'
 import song from '/music/cancion.mp3'
@@ -21,12 +20,12 @@ function App() {
   }
   return (
     <>
-      {/* {
+      {
         show &&
         <section className='h-screen w-full fixed top-0 z-10 flex items-center justify-center bg-accent filter-blur' onClick={handleClick} >
           <img src={play} alt="separator" className="w-[150px] palpitar" />
         </section>
-      } */}
+      }
       <audio autoPlay={true} loop={false} controls ref={audio} style={{ display: 'none' }}>
         <source src={song} type="audio/mpeg" />
       </audio>
