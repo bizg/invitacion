@@ -21,19 +21,19 @@ function App() {
   }
   return (
     <>
-      {
+      {/* {
         show &&
         <section className='h-screen w-full fixed top-0 z-10 flex items-center justify-center bg-accent filter-blur' onClick={handleClick} >
           <img src={play} alt="separator" className="w-[150px] palpitar" />
         </section>
-      }
-      <audio autoPlay={true} loop={true} controls ref={audio} style={{ display: 'none' }}>
+      } */}
+      <audio autoPlay={true} loop={false} controls ref={audio} style={{ display: 'none' }}>
         <source src={song} type="audio/mpeg" />
       </audio>
       <div className='font-sans max-w-[500px] m-auto mt-0 overflow-hidden'>
         <section className="relative flex flex-col items-center justify-center text-center pt-7 bg-top bg-no-repeat bg-contain" style={{ backgroundImage: `url(${background})` }}>
           {/* Nombres */}
-          <div className='reletive w-3/4 h-screen flex flex-col justify-center'>
+          <div className='reletive w-3/4 mt-28 flex flex-col justify-center'>
             <h1 className="text-8xl md:text-4xl font-display text-primary kapakana-regular text-left w-full">
               Mariana
             </h1>
@@ -43,15 +43,15 @@ function App() {
             <h1 className="text-8xl md:text-4xl font-display text-primary mb-4 kapakana-regular text-right">
               Federico
             </h1>
-            <h6 className='italianno-regular text-2xl'>El inicio de una historia de amor</h6>
-
+            <h6 className='italianno-regular text-2xl'>A veces, el amor no llega con ruido ni advertencia. A veces, simplemente aparece, suave como una brisa, tímido como una mirada que se cruza por primera vez. Fue así como comenzó nuestra historia: sin prisa, sin guiones, solo tú y yo compartiendo momentos que parecían pequeños, pero que en el fondo estaban marcando el inicio de algo eterno.</h6>
+            <img src={separator} alt="separator" className="mx-auto w-[220px]" />
           </div>
-
-          <div className='flex justify-center items-center my-7'>
-            <img src={rosa} alt="separator" className='absolute rotate-180 bottom-[-50] right-0 w-80 z-1' />
-          </div>
-
-          <div className="relative flex flex-col justify-center items-center px-6 pt-20 bg-white h-screen">
+          <img
+            src={pareja}
+            alt="Mariana y Federico"
+            className="w-[300px]"
+          />
+          <div className="relative flex flex-col justify-center items-center px-6 bg-white">
 
             <p className="max-w-md text-black italic font-light leading-relaxed italianno-regular text-3xl mt-5 z-2">
               “Grábame como un sello sobre tu corazón; llévame como una marca sobre tu brazo.
@@ -61,12 +61,7 @@ function App() {
               <br />
               <span className="block mt-2 text-gray-500 text-xl">— Cantares 8:6-7</span>
             </p>
-
-            <img
-              src={pareja}
-              alt="Mariana y Federico"
-              className="w-[300px] mt-12"
-            />
+            <img src={separator} alt="separator" className="mx-auto w-[220px]" />
           </div>
         </section>
 
