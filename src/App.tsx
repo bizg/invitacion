@@ -83,12 +83,12 @@ function App() {
             <h3 className="text-lg font-semibold text-gray-800 work-sans-light">Ceremonia, <span className='work-sans-bold'>Parroquia emaus </span></h3>
             <p className="text-sm text-gray-600 mb-2 work-sans-light">Hora: 7:00pm</p>
             <a
-              href="https://maps.app.goo.gl/sExNtSXexWRXRpPP6"
+              href="https://maps.app.goo.gl/h3VtFaJEv5wyP5Nz5"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
             >
-              <img src={church} width="15px" height={"15px"}/>  Ver ubicación
+              <img src={church} width="12px" height={"12px"}/>  Ver ubicación
             </a>
           </div>
 
@@ -102,7 +102,7 @@ function App() {
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
             >
-              <img src={point} width="15px" height={"15px"}/> Ver ubicación
+              <img src={point} width="12px" height={"12px"}/> Ver ubicación
             </a>
           </div>
         </section>
