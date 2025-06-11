@@ -88,7 +88,7 @@ function App() {
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
             >
-              <img src={church} width="15px" />  Ver ubicación
+              <img src={church} width="15px" height={"15px"}/>  Ver ubicación
             </a>
           </div>
 
@@ -102,7 +102,7 @@ function App() {
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
             >
-              <img src={point} width="15px" /> Ver ubicación
+              <img src={point} width="15px" height={"15px"}/> Ver ubicación
             </a>
           </div>
         </section>
@@ -129,7 +129,7 @@ function App() {
             </p>
             <div className="mt-2 space-x-4">
               <a
-                href="https://wa.me/573001112233"
+                href="https://wa.me/573246729960"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 bg-[#dfd2c2] text-white rounded-md hover:bg-opacity-90 transition"
@@ -137,7 +137,7 @@ function App() {
                 Mariana
               </a>
               <a
-                href="https://wa.me/573009998877"
+                href="https://wa.me/573006887323"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 bg-[#dfd2c2] text-white rounded-md hover:bg-opacity-90 transition"
