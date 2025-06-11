@@ -83,7 +83,7 @@ function App() {
             <h3 className="text-lg font-semibold text-gray-800 work-sans-light">Ceremonia, <span className='work-sans-bold'>Parroquia emaus </span></h3>
             <p className="text-sm text-gray-600 mb-2 work-sans-light">Hora: 7:00pm</p>
             <a
-              href="https://maps.app.goo.gl/h3VtFaJEv5wyP5Nz5"
+              href="https://maps.app.goo.gl/sExNtSXexWRXRpPP6"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
@@ -97,7 +97,7 @@ function App() {
             <h3 className="text-lg font-semibold text-gray-800 work-sans-light">Recepción, <span className='work-sans-bold'>Eventoselecto</span></h3>
             <p className="text-sm text-gray-600 mb-2 work-sans-light">Hora: 8:00pm</p>
             <a
-              href="https://maps.app.goo.gl/BGoLNrPkazsbZW7T6"
+              href="https://maps.app.goo.gl/h3VtFaJEv5wyP5Nz5"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-1 px-4 py-2 text-sm bg-[#dfd2c2] text-white rounded-lg hover:bg-opacity-90 transition flex gap-2 w-[140px] m-auto"
